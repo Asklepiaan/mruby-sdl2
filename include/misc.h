@@ -10,7 +10,7 @@ extern "C" {
 extern void mruby_sdl2_misc_init(mrb_state *mrb);
 extern void mruby_sdl2_misc_final(mrb_state *mrb);
 
-#ifdef __cplusplu
+#ifdef __cplusplus
 }
 #endif
 
